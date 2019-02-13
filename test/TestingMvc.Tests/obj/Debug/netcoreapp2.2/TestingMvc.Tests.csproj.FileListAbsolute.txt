@@ -1,0 +1,4 @@
+D:\jana\dotnet core\Api-intergration\test\TestingMvc.Tests\obj\Debug\netcoreapp2.2\TestingMvc.Tests.csprojAssemblyReference.cache
+D:\jana\dotnet core\Api-intergration\test\TestingMvc.Tests\obj\Debug\netcoreapp2.2\TestingMvc.Tests.csproj.CoreCompileInputs.cache
+D:\jana\dotnet core\Api-intergration\test\TestingMvc.Tests\obj\Debug\netcoreapp2.2\TestingMvc.Tests.AssemblyInfoInputs.cache
+D:\jana\dotnet core\Api-intergration\test\TestingMvc.Tests\obj\Debug\netcoreapp2.2\TestingMvc.Tests.AssemblyInfo.cs

@@ -1,0 +1,106 @@
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.csprojAssemblyReference.cache
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.csproj.CoreCompileInputs.cache
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorAssemblyInfo.cache
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorAssemblyInfo.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.AssemblyInfoInputs.cache
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.AssemblyInfo.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.deps.json
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.runtimeconfig.json
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.runtimeconfig.dev.json
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.dll
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.pdb
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.Views.dll
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.Views.pdb
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.TagHelpers.input.cache
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.TagHelpers.output.cache
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorCoreGenerate.cache
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\student\delete.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\student\index.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorTargetAssemblyInfo.cache
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorTargetAssemblyInfo.cs
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.Views.pdb
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.dll
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.pdb
+D:\geethamani\csharp\dotnetcoreweb\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.csproj.CopyComplete
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.deps.json
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.runtimeconfig.json
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.runtimeconfig.dev.json
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.dll
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.pdb
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.Views.dll
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\bin\Debug\netcoreapp2.1\MvcAdoDemo.Views.pdb
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.csprojAssemblyReference.cache
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.csproj.CoreCompileInputs.cache
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorAssemblyInfo.cache
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorAssemblyInfo.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.AssemblyInfoInputs.cache
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.AssemblyInfo.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.TagHelpers.input.cache
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.TagHelpers.output.cache
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorCoreGenerate.cache
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\student\delete.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\student\index.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorTargetAssemblyInfo.cache
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorTargetAssemblyInfo.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.Views.pdb
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.dll
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.pdb
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\MvcAdoDemo.csproj.CopyComplete
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\student\create.g.cshtml.cs
+D:\jana\dotnet core\MvcAdoDemo\MvcAdoDemo\obj\Debug\netcoreapp2.1\Razor\Views\student\Edit.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\bin\Debug\netcoreapp2.1\MvcAdoDemo.deps.json
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\bin\Debug\netcoreapp2.1\MvcAdoDemo.runtimeconfig.json
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\bin\Debug\netcoreapp2.1\MvcAdoDemo.runtimeconfig.dev.json
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\bin\Debug\netcoreapp2.1\MvcAdoDemo.dll
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\bin\Debug\netcoreapp2.1\MvcAdoDemo.pdb
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\bin\Debug\netcoreapp2.1\MvcAdoDemo.Views.dll
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\bin\Debug\netcoreapp2.1\MvcAdoDemo.Views.pdb
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.csprojAssemblyReference.cache
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.csproj.CoreCompileInputs.cache
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorAssemblyInfo.cache
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorAssemblyInfo.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.AssemblyInfoInputs.cache
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.AssemblyInfo.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.TagHelpers.input.cache
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.TagHelpers.output.cache
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorCoreGenerate.cache
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\student\create.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\student\delete.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\student\Edit.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\student\index.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorTargetAssemblyInfo.cache
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.RazorTargetAssemblyInfo.cs
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.Views.pdb
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.dll
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.pdb
+D:\jana\dotnet core\Api-intergration\src\MvcAdo-in-DotNetCore-\obj\Debug\netcoreapp2.1\MvcAdoDemo.csproj.CopyComplete

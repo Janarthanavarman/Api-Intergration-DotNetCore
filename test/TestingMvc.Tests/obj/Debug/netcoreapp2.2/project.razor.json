@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "d:\\jana\\dotnet core\\Api-intergration\\test\\TestingMvc.Tests\\TestingMvc.Tests.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
