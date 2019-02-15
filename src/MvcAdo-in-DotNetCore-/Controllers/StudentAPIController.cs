@@ -18,28 +18,30 @@ namespace MVCAdoDemo.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Object> DashBoard()
+        public IActionResult DashBoard()
         {
             try
             {
                 List<Student> lstStudent = new List<Student>();
                 lstStudent = objStudent.GetAllstudents().ToList();
 
-                return lstStudent;
+                return Ok(lstStudent);
             }
             catch
             {
-                return null;
+                return NotFound();
             }
         }
 
 
-        [HttpPost]
+        [HttpPut]
         public IActionResult create([Bind] Student Student)
         {
             try
             {
-                objStudent.AddEmployee(Student);
+                if(objStudent.AddEmployee(Student)){
+                    return StatusCode(201);
+                }
                 return NoContent();
             }
             catch
@@ -51,7 +53,15 @@ namespace MVCAdoDemo.Controllers
 [HttpGet]
         public IActionResult Edit(int id)
         {
-            return Ok(objStudent.GetEmployee(id));
+            
+            try{
+                var re =objStudent.GetEmployee(id);
+                if(re!=null)
+                return Ok(re);
+                return NotFound();
+            }catch{                
+                return NotFound();
+            }
         }
 
         [HttpPost]
@@ -63,14 +73,14 @@ namespace MVCAdoDemo.Controllers
                if( objStudent.UpdateEmployee(id,Student)){
                    return Accepted();
                }
-                return NoContent();
+                return NotFound();
             }
             else
             {
                 if( objStudent.UpdateEmployee(id,Student)){
                    return Accepted();
                }
-                return NoContent();
+                return NotFound();
             }
          }catch{
              return BadRequest();
@@ -81,10 +91,10 @@ namespace MVCAdoDemo.Controllers
 [HttpDelete]
         public IActionResult Delete(int id)
         {
-           if(  objStudent.DeleteEmployee(id)){
+           if(objStudent.DeleteEmployee(id)){
                    return Accepted();
                }
-                return NoContent();                           
+                return NotFound();                           
         }
 
 

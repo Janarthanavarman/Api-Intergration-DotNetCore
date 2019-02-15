@@ -10,10 +10,10 @@ namespace Web.Api.IntegrationTests
         {
             //dbContext.student.Add(new Student("Wayne", "Gretzky", 183, 84, new DateTime(1961,1,26)) { Id = 1, Created = DateTime.UtcNow });           
             dbContext.stud.Add(new Student(){
-                    Name ="AAAAA",
-                    Gender="M",
-                    Department ="D",
-                    City = "D"
+                    Name ="Test",
+                    Gender="F",
+                    Department ="C",
+                    City = "C"
                 });
             dbContext.SaveChanges();
         }

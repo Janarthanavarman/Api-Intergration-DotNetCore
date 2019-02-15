@@ -821,6 +821,7 @@
       },
       "MvcAdoDemo/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "2.2.0",
           "Swashbuckle.AspNetCore": "4.0.1"
         },
         "runtime": {

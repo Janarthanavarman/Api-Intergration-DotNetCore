@@ -24,15 +24,22 @@ namespace MVCAdoDemo.Models
 
         public Student GetEmployee(int id)    
         {    
-            return context.stud.ToList().Where(x => x.ID ==id).FirstOrDefault(); 
+                    
+            return context.stud.Where(x => x.ID ==id).FirstOrDefault(); 
         }
 
       
       
-        public void AddEmployee(Student Student)    
+        public bool AddEmployee(Student Student)    
         {    
+          try{
            context.Add(Student);
            context.SaveChanges();
+           return true;
+          }
+          catch{
+            return  false;
+          }
         }
 
           public bool UpdateEmployee(int id,Student s)    
@@ -69,7 +76,6 @@ namespace MVCAdoDemo.Models
               return false;
             }catch(Exception ex){
               Console.Write(ex.Message);
-
                 return false;
           }             
           

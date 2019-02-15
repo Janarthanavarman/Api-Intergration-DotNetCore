@@ -8,7 +8,7 @@ namespace MVCAdoDemo.Models
     {  
           IEnumerable<Student> GetAllstudents() ;
            Student GetEmployee(int id) ;       
-          void AddEmployee(Student Student);        
+          bool AddEmployee(Student Student);        
           bool UpdateEmployee(int id,Student s) ;  
           bool DeleteEmployee(int id);
     }    
