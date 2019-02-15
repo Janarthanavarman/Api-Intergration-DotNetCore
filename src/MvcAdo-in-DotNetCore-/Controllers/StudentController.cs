@@ -10,7 +10,12 @@ namespace MVCAdoDemo.Controllers
 {
     public class StudentController : Controller
     {
-        StudentDataAccessLayer objStudent = new StudentDataAccessLayer();
+        //StudentDataAccessLayer objStudent = new StudentDataAccessLayer();
+        IStudentIMDataAccessLayer objStudent;
+        public StudentController(IStudentIMDataAccessLayer objStudent){
+            this.objStudent =objStudent;
+        }
+        
 
         public IActionResult Index()
         {
@@ -39,18 +44,18 @@ namespace MVCAdoDemo.Controllers
         }
 
 
-        public IActionResult Edit(int? id)
+        public IActionResult Edit(int id)
         {
             return View(objStudent.GetEmployee(id));
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit([Bind] Student Student)
+        public IActionResult Edit(int id,[Bind] Student Student)
         {
             if (ModelState.IsValid)
             {
-                objStudent.UpdateEmployee(Student);
+                objStudent.UpdateEmployee(id,Student);
                 return RedirectToAction("Index");
             }
             return View(Student);
@@ -59,7 +64,7 @@ namespace MVCAdoDemo.Controllers
 
 
         [HttpGet]
-        public IActionResult Delete(int? id)
+        public IActionResult Delete(int id)
         {
             objStudent.DeleteEmployee(id);
             return RedirectToAction("Index");

@@ -12,7 +12,10 @@ namespace MVCAdoDemo.Controllers
     [ApiController]
     public class StudentAPIController : ControllerBase
     {
-        StudentDataAccessLayer objStudent = new StudentDataAccessLayer();
+         IStudentIMDataAccessLayer objStudent;
+       public  StudentAPIController(IStudentIMDataAccessLayer objStudent){
+            this.objStudent =objStudent;
+        }
 
         [HttpGet]
         public IEnumerable<Object> DashBoard()
@@ -46,33 +49,42 @@ namespace MVCAdoDemo.Controllers
         }
         
 [HttpGet]
-        public IActionResult Edit(int? id)
+        public IActionResult Edit(int id)
         {
             return Ok(objStudent.GetEmployee(id));
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Edit([Bind] Student Student)
+       
+        public IActionResult Update(int id,[FromBody] Student Student)
         {
-            if (ModelState.IsValid)
+         try{   if (ModelState.IsValid)
             {
-                objStudent.UpdateEmployee(Student);
+               if( objStudent.UpdateEmployee(id,Student)){
+                   return Accepted();
+               }
                 return NoContent();
             }
             else
             {
-                objStudent.UpdateEmployee(Student);
+                if( objStudent.UpdateEmployee(id,Student)){
+                   return Accepted();
+               }
                 return NoContent();
             }
+         }catch{
+             return BadRequest();
+         }
 
         }
 
 [HttpDelete]
-        public IActionResult Delete(int? id)
+        public IActionResult Delete(int id)
         {
-            objStudent.DeleteEmployee(id);
-            return NoContent();
+           if(  objStudent.DeleteEmployee(id)){
+                   return Accepted();
+               }
+                return NoContent();                           
         }
 
 

@@ -7,8 +7,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MvcAdoDemo.Models;
+using MVCAdoDemo.Models;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace MvcAdoDemo
@@ -34,6 +37,21 @@ namespace MvcAdoDemo
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddScoped<IStudentIMDataAccessLayer,StudentIMDataAccessLayer>();            
+             //services.AddDbContext<AppIMDBContext>(opt => opt.UseInMemoryDatabase());
+
+            //    var serviceProvider = new ServiceCollection()
+            //         .AddEntityFrameworkInMemoryDatabase()
+            //         .BuildServiceProvider();
+
+                // Add a database context (AppDbContext) using an in-memory database for testing.
+                // services.adddb               
+                services.AddDbContext<AppIMDBContext>(options =>
+                {
+                    options.UseInMemoryDatabase("InMemoryAppDb");
+                    ///options.UseInternalServiceProvider(serviceProvider);
+                });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info

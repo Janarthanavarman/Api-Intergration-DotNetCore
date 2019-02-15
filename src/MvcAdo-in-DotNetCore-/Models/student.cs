@@ -16,6 +16,19 @@ namespace MVCAdoDemo.Models
         [Required]    
         public string Department { get; set; }    
         [Required]    
-        public string City { get; set; }    
+        public string City { get; set; }   
+
+        public Student() {
+
+        }
+
+        // internal Student(int Id,string Name,string Gender,string Department,string City) {
+        //     this.ID =Id;
+        //     this.Name =Name;
+        //     this.Gender=Gender;
+        //     this.Department=Department;
+        //     this.City=City;
+        // }
     }    
+    
 }
