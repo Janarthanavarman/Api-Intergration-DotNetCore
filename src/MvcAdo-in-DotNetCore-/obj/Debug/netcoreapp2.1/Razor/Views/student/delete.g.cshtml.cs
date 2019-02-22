@@ -148,12 +148,12 @@ using MvcAdoDemo.Models;
             WriteLiteral("    \r\n        </dd>    \r\n    </dl>    \r\n    \r\n    ");
             EndContext();
             BeginContext(1053, 223, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "39e8c5f9573747229e02a6d886bfff15", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc61173f8bf848d383002c1b0caf6e96", async() => {
                 BeginContext(1079, 14, true);
                 WriteLiteral("    \r\n        ");
                 EndContext();
                 BeginContext(1093, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5a6f68248e214903b97cd25ffd1b3cc7", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "74858f6ff4954906bff90d36ab2ec494", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -178,7 +178,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("    \r\n        <input type=\"submit\" value=\"Delete\" class=\"btn btn-default\" /> |    \r\n        ");
                 EndContext();
                 BeginContext(1221, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4dc70b223e6041d38c130234fbafe003", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3fe63864225b4d658ed3704634f27ca0", async() => {
                     BeginContext(1243, 12, true);
                     WriteLiteral("Back to List");
                     EndContext();

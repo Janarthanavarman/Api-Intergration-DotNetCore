@@ -4,12 +4,15 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
 using MVCAdoDemo.Models;
+
 
 namespace MVCAdoDemo.Controllers
 {
-    [Route("api/[controller]/[action]")]//
+    [Route("api/[controller]")]//
     [ApiController]
+    [EnableCors("ngCrosPolicy")]
     public class StudentAPIController : ControllerBase
     {
          IStudentIMDataAccessLayer objStudent;
@@ -24,7 +27,6 @@ namespace MVCAdoDemo.Controllers
             {
                 List<Student> lstStudent = new List<Student>();
                 lstStudent = objStudent.GetAllstudents().ToList();
-
                 return Ok(lstStudent);
             }
             catch
@@ -35,7 +37,7 @@ namespace MVCAdoDemo.Controllers
 
 
         [HttpPut]
-        public IActionResult create([Bind] Student Student)
+        public IActionResult create([FromBody] Student Student)
         {
             try
             {
@@ -50,7 +52,7 @@ namespace MVCAdoDemo.Controllers
             }
         }
         
-[HttpGet]
+      [HttpGet("{id}")]
         public IActionResult Edit(int id)
         {
             
@@ -64,7 +66,7 @@ namespace MVCAdoDemo.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("{id}")]
        
         public IActionResult Update(int id,[FromBody] Student Student)
         {
@@ -88,7 +90,7 @@ namespace MVCAdoDemo.Controllers
 
         }
 
-[HttpDelete]
+[HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
            if(objStudent.DeleteEmployee(id)){

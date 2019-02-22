@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using MvcAdoDemo;
 using MvcAdoDemo.Models;
+using MVCAdoDemo.Controllers;
 
 namespace Web.Api.IntegrationTests
 {
@@ -28,6 +29,7 @@ namespace Web.Api.IntegrationTests
                     options.UseInMemoryDatabase("InMemoryAppDb");
                     options.UseInternalServiceProvider(serviceProvider);
                 });
+               // services.AddScoped<StudentAPIController,StudentAPIController>();      
 
                 // Build the service provider.
                 var sp = services.BuildServiceProvider();

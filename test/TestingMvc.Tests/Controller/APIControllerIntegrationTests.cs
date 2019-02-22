@@ -13,12 +13,13 @@ using System.Text;
 namespace Web.Api.IntegrationTests.Controllers
 {
     //https://dotnetcorecentral.com/blog/asp-net-core-web-api-integration-testing-with-xunit/
-    public class PlayersControllerIntegrationTests : IClassFixture<CustomWebApplicationFactory<Startup>>
+    ///https://code-maze.com/unit-testing-aspnetcore-web-api/
+    public class APIControllerIntegrationTests : IClassFixture<CustomWebApplicationFactory<Startup>>
     {
         private readonly HttpClient _client;       
         AppIMDBContext cont;
 
-        public PlayersControllerIntegrationTests(CustomWebApplicationFactory<Startup> factory)
+        public APIControllerIntegrationTests(CustomWebApplicationFactory<Startup> factory)
         {
             this._client = factory.CreateClient();
             //this.cont =cont;         
@@ -29,7 +30,7 @@ namespace Web.Api.IntegrationTests.Controllers
         public async Task CanGetAll()
         {
             // The endpoint or route of the controller action.
-            var httpResponse = await _client.GetAsync("/api/StudentAPI/DashBoard");
+            var httpResponse = await _client.GetAsync("/api/StudentAPI");
 
             // Must be successful.
             httpResponse.EnsureSuccessStatusCode();
@@ -69,7 +70,7 @@ namespace Web.Api.IntegrationTests.Controllers
             });
             var stringContent = new StringContent(json, UnicodeEncoding.UTF8, "application/json");
 
-            var httpResponse = await _client.PutAsync("/api/StudentAPI/create",stringContent);
+            var httpResponse = await _client.PutAsync("/api/StudentAPI",stringContent);
             // Must be successful.
             httpResponse.EnsureSuccessStatusCode();
            Assert.Equal(HttpStatusCode.Created,httpResponse.StatusCode);
@@ -80,7 +81,7 @@ namespace Web.Api.IntegrationTests.Controllers
         public async Task CanGetByIdWrong()
         {
             // The endpoint or route of the controller action.
-            var httpResponse = await _client.GetAsync("/api/StudentAPI/Edit?id=16");
+            var httpResponse = await _client.GetAsync("/api/StudentAPI/16");
            // httpResponse.EnsureSuccessStatusCode();
             Assert.Equal(HttpStatusCode.NotFound, httpResponse.StatusCode);
         }
@@ -89,7 +90,7 @@ namespace Web.Api.IntegrationTests.Controllers
         public async Task CanGetById()
         {
             // The endpoint or route of the controller action.
-            var httpResponse = await _client.GetAsync("/api/StudentAPI/Edit?id=2");
+            var httpResponse = await _client.GetAsync("/api/StudentAPI/2");
             httpResponse.EnsureSuccessStatusCode();
             Assert.NotEqual(HttpStatusCode.NotFound, httpResponse.StatusCode);
 
@@ -98,11 +99,54 @@ namespace Web.Api.IntegrationTests.Controllers
             Assert.Contains("BBBBB", sss.Name );  
         }
 
+        [Fact]
+        public async Task CanUpdate()
+        {
+            // The endpoint or route of the controller action.
+            
+            //  var response = await client.PostAsync("/api/employee"
+            //     , new StringContent(
+            //     JsonConvert.SerializeObject(new Employee()
+            // {
+            //     Address = "Test",
+            //     FirstName = "John",
+            //     LastName = "Mak",
+            //     CellPhone = "111-222-3333",
+            //     HomePhone = "222-333-4444"
+            // }), 
+            // Encoding.UTF8, 
+            // "application/json"));
+            var json = JsonConvert.SerializeObject(new Student()
+            {
+                Name = "BBBB2",
+                Department = "D",
+                Gender = "F",
+                City = "D"
+            });
+            var stringContent = new StringContent(json, UnicodeEncoding.UTF8, "application/json");
+
+            var httpResponse = await _client.PostAsync("/api/StudentAPI/2",stringContent);
+            // Must be successful.
+            httpResponse.EnsureSuccessStatusCode();
+           Assert.Equal(HttpStatusCode.Accepted,httpResponse.StatusCode);
+
+
+            var httpResponse2 = await _client.GetAsync("/api/StudentAPI/2");
+            httpResponse2.EnsureSuccessStatusCode();
+            Assert.NotEqual(HttpStatusCode.NotFound, httpResponse2.StatusCode);
+
+            var stringResponse = await httpResponse2.Content.ReadAsStringAsync();
+            var sss = JsonConvert.DeserializeObject<Student>(stringResponse);
+            Assert.Contains("BBBB2", sss.Name );  
+
+        }
+
          [Fact]
         public async Task CanDeleteById()
         {
             // The endpoint or route of the controller action.
-            var httpResponse = await _client.DeleteAsync("/api/StudentAPI/Delete?id=3");
+            this.CanCreate();
+            var httpResponse = await _client.DeleteAsync("/api/StudentAPI/3");
             httpResponse.EnsureSuccessStatusCode();
             Assert.Equal(HttpStatusCode.Accepted, httpResponse.StatusCode);
 

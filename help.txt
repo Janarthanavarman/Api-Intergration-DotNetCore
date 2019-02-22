@@ -1,0 +1,50 @@
+
+Git Bash cmd: 
+********************************************************************************************
+New Respository:
+Create repo in github
+
+cmd:
+>git init  // git create loaclly
+>git add . // add all files
+>git commit -m "Cmd"
+>git add origin <URL> // githup url
+>git push -u origin master 
+
+
+>git remote show origin // get the url witch is connect to git hub
+
+> git remote -v // get the url witch is connect to git hub
+
+
+
+dotnet cmd: 
+********************************************************************************************
+
+
+
+
+
+
+
+
+C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.5.0\bin;D:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\janarthanavarman.t\.dotnet\tools;C:\Users\janarthanavarman.t\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\janarthanavarman.t\AppData\Roaming\npm 
+
+
+
+
+%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%JAVA_HOME%\bin;%MVN_HOME%;D:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\
+
+C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\Wind
+owsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_131\bin;D:\apache-maven-3.5.0
+\bin;D:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\Mi
+crosoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Micros
+oft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\D
+TS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementSt
+udio\;C:\Users\janarthanavarman.t\.dotnet\tools;C:\Users\janarthanavarman.t\AppD
+ata\Local\Programs\Microsoft VS Code\bin
+
+
+dotnet add MvcAdoDemo.csproj package Swashbuckle.AspNetCore
+
+https://github.com/Janarthanavarman/spring-boot-security-master.git

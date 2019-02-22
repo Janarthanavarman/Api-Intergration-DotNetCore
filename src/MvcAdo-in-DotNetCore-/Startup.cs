@@ -7,12 +7,16 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+
 using Microsoft.Extensions.DependencyInjection;
 using MvcAdoDemo.Models;
 using MVCAdoDemo.Models;
 using Swashbuckle.AspNetCore.Swagger;
+
 
 namespace MvcAdoDemo
 {
@@ -35,9 +39,18 @@ namespace MvcAdoDemo
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddDbContext<AppDBContext>(pt=>pt.UseSqlServer(Configuration["ConnectionString:TrainingDB"]));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddScoped<IStudentIMDataAccessLayer,StudentIMDataAccessLayer>();            
+            services.AddCors(opt =>{
+                opt.AddPolicy("ngCrosPolicy",
+                             Builder=>Builder
+                                .WithOrigins("http://localhost:4200")
+                                .AllowAnyMethod()
+                                .AllowAnyHeader()
+                                );
+            }
+            );
              //services.AddDbContext<AppIMDBContext>(opt => opt.UseInMemoryDatabase());
 
             //    var serviceProvider = new ServiceCollection()
@@ -76,6 +89,9 @@ namespace MvcAdoDemo
                 app.UseHsts();
             }
 
+            // Shows UseCors with named policy. Globally
+           // app.UseCros("ngCrosPolicy");
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
@@ -96,3 +112,4 @@ namespace MvcAdoDemo
         }
     }
 }
+
